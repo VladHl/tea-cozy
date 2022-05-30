@@ -1,0 +1,119 @@
+* {
+  
+  padding: 0;
+  margin: 0;
+}
+body {
+font-family: Helvetica, sans-serif;
+font-size: 22px;
+color: seashell;
+background-color: black;
+opacity: 0.9;
+margin: 0;
+}
+header {
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+}
+.flex-container {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+header .flex-container {
+  justify-content: space-between;
+  flex-direction: row;
+}
+.title {
+  height: 50px;
+  font-family: "Great Vibes", "Dancing Script", serif;
+  font-weight: 300;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+nav {
+  margin-left: auto;
+  
+}
+li {
+  padding: 10px;
+  display: inline-block;
+  text-decoration: underline;
+}
+a {
+  color:seashell;
+}
+#mission {
+  height: 700px;
+z-index: 10;
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+#mission .content {
+  width: 100%;
+}
+.content {
+  background-color: black;
+  align-items: center;
+  margin: auto;
+}
+.main {
+  text-align: center;
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+h2, h3, h4 {
+  padding: 10px;
+}
+#store .content {
+  width: 1000px;
+}
+.item {
+  padding: 5px;
+}
+.item img {
+  padding: 10px;
+  height: 200px;
+  width: 300px;
+  display: block;
+}
+.item span{
+  padding: 10px;
+  display: block;
+  font-weight: bold;
+  text-align: center;
+}
+#locations {
+  width: 1100px;
+  background-image: url("locations.jpg");
+  height: 500px;
+  padding-top: 70px;
+  margin: auto;
+}
+.location {
+  height: 280px;
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#contact {
+  flex-direction: column;
+  justify-content: space-around;
+  height: 200px;
+}
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
